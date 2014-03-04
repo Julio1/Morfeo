@@ -1,0 +1,67 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+	@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+	body {
+				/*background:url(../img/paran.jpg);	background-image:url(../img/paran.jpg);*/
+	background: url(../img/leaf3.jpg);
+	background-size:cover;
+		height:100%;
+		width:100%;
+	}
+	
+	nav {
+		height:9em;
+		text-align: center;}
+	
+	
+	nav h1 {font-family: 'Lobster', cursive;
+	font-size: 6em;
+	text-shadow:#253e45 -1px 1px 0,
+			#253e45 -2px 2px 0,
+			#d45848 -3px 3px 0,
+			#d45848 -4px 4px 0;
+	
+	}
+	
+	
+	
+	.j {
+		background-color:white;
+		height:16em;
+		width:70%;
+		margin-top:8%
+	}
+	
+	.carousel .one {
+		background:url(../img/a1.jpg);
+		background-size:cover;
+		-moz-background-size:cover;
+	}
+	.carousel .two {
+		background:url(../img/b1.jpg);
+		background-size:cover;
+		-moz-background-size:cover;
+	}
+	.carousel .three {
+		background:url(../img/c1.jpg);
+		background-size:cover;
+		-moz-background-size:cover;
+	}
+	
+	
+	#myCarousel img{width: 70%; height: 70%; }
+	
+	
+	/*@media only screen and (min-device-width:320px) and (max-device-width:480px){			.j{background-color: yellow;}}*/
+	/*@media only screen and (min-width:320px) and (max-width:480px) {
+		.j {
+			background-color:yellow;
+			width: 100%;
+		}
+	}*/
+	/*http://css-tricks.com/snippets/css/media-queries-for-standard-devices/*/
